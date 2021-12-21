@@ -1,0 +1,64 @@
+body{
+    background-color: #393e46;
+}
+.keyboard{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding:30px;
+
+    width:80%;
+    height:90vh;
+    padding: 15px;
+    font-size: 50px;
+    box-shadow: 20px 20px 18px white;
+    background-color: blanchedalmond;
+    border-radius: 40%;
+      
+}
+textarea{
+    display: flex;
+    margin:auto;
+    width:400px;
+    height:200px
+}
+button{
+    font-size: 22px;
+    background-color: black;
+    color:white;
+    font-family: cursive;
+    border-radius: 30%;
+    cursor: pointer;
+    margin:10px;    
+}
+button:hover{
+    font-size:20px;
+    text-shadow: blue;
+    background-color: tomato;
+}
+#cap:active{
+    background-color: blue;
+}
+.but{
+   justify-content: center;
+   align-items: center;
+}
+.uppercase{
+    text-transform:lowercase;
+}
+.buton{
+    background-color: rgb(102, 64, 138);
+    width:65%;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow:10px 20px 30 black;
+    padding:5px;
+   
+   
+
+}
+p{
+    text-align: center;
+}
